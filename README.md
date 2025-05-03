@@ -2,11 +2,13 @@
 
 Este proyecto de aprendizaje automático tiene como objetivo predecir el nivel de adaptabilidad de los estudiantes al entorno digital (Bajo, Moderado o Alto) utilizando datos demográficos, tecnológicos y educativos. Fue desarrollado como parte de mi formación en análisis de datos aplicado a la educación.
 
-🎯 Objetivo del proyecto
+Demo: https://modelo-adaptabilidad-estudiantil-uqx3zwnupbhrg2mvfvggng.streamlit.app/
+
+🎯 ## Objetivo del proyecto
 
 Construir un modelo que, a partir de datos como edad, dispositivo, tipo de conexión a internet y condiciones financieras, sea capaz de predecir con alta precisión el nivel de adaptabilidad digital de un estudiante.
 
-🧐 Dataset
+🧐 ## Dataset
 
 El conjunto de datos incluye 1205 registros de estudiantes con las siguientes variables:
 
@@ -20,7 +22,7 @@ Adaptivity Level (variable objetivo)
 
 Fuente del dataset: Kaggle: Student Adaptability Dataset
 
-⚙️ Metodología
+⚙️ ## Metodología
 
 Preprocesamiento de datos:
 
@@ -32,9 +34,9 @@ Random Forest
 
 Regresión Logística
 
-**Validación cruzada y búsqueda de hiperparámetros (GridSearchCV)
+Validación cruzada y búsqueda de hiperparámetros (GridSearchCV)
 
-Evaluación de métricas:
+## Evaluación de métricas:
 
 Accuracy, Precision, Recall, F1-score
 
@@ -44,15 +46,15 @@ Selección del mejor modelo
 
 Predicción con nuevos datos
 
-📈 Resultados
+📈 ## Resultados
 
 🔍 Mejor modelo: Random Forest (F1-score: 0.91)
 
 ⚒️ Modelo guardado: mejor_modelo_adaptabilidad.pkl
 
-📊 Factores más importantes para la predicción:
+📊 ##Factores más importantes para la predicción:
 
-Duración de clases (0 horas)
+Duración de clases 
 
 Género
 
@@ -60,7 +62,7 @@ Condición financiera
 
 Tipo de conexión y dispositivo
 
-📝 Recomendaciones educativas
+📝 ## Recomendaciones educativas
 
 Asegurar acceso a tecnología y conexión adecuada
 
